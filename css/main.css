@@ -1,6 +1,5 @@
-body {
-  background: url("../images/logo-adalab-80px.png") center center no-repeat #fff;
-  height: 100vh;
+.favorit-serie{
+  background-color: red;
+  border: 3px solid black;
 }
-
 /*# sourceMappingURL=main.css.map */
