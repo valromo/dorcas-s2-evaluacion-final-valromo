@@ -1,2 +1,78 @@
+.title {
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.title-serie {
+  color: #C71585;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.list-serie {
+  margin: 20px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 250px;
+  height: 300px;
+  background-color: #FFB6C1;
+}
+
+.image-serie {
+  margin-top: 20px;
+  height: 200px;
+  width: 150px;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.container-boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.input {
+  text-align: center;
+  border: 0px 0px 0px 2px solid black;
+}
+
+.boton {
+  text-align: center;
+  background-color: #C71585;
+  color: white;
+}
+
+.favorit-serie {
+  background-color: #ccccff;
+  border: 5px solid #483D8B;
+  font-style: white;
+}
 
 /*# sourceMappingURL=main.css.map */
